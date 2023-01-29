@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    ;
+}
+
+h1 {
+    font-weight: 900px;
+    font-size: 5rem;
+    text-shadow: 1.5px 1.5px 0 black;
+    word-spacing: 0.5rem;
+}
+
+.hero {
+    align-items: center;
+    background: url(../images/background_w320.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.paragraph {
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    padding: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background: url(../images/background_w853.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .hero .tagline {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        background: url(../images/background_w1228.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        background: url(../images/background_w1440.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 9rem;
+    }
+}
