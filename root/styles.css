@@ -1,0 +1,29 @@
+h1 {
+    padding: 2rem;
+    text-align: center;
+    background-color: bisque;
+    margin: 0 0 0 0;
+}
+
+p {
+    background-color: bisque;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 0 0 0;
+}
+
+.anchor {
+    background: #f5f5f5;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    padding: 1rem;
+}
+
+a:hover {
+    color: blue;
+}
